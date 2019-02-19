@@ -1,7 +1,11 @@
 # dockerimages
 General GUIDES about Docker based Deployments.
 
-## How to Create a Permernent (Persisted) Deployment
+## Step 1 - Create a docker host machine aka install docker and docker-compose
+Here we line out some ways to deploy docker it self to a Host machine this can be your private pc or a VPS in general any machine where docker runs on 
+
+
+## Step 2 - How to Create a Permernent (Persisted) Deployment
 To get a Persisted Configuration of your Deployment you need to describe it in some way good ways for this are:
 - docker-compose
   - Create a docker-compose.yml file and store it in a folder of your HardDrive most of our images are already delivered with a 
@@ -28,3 +32,7 @@ To get a Persisted Configuration of your Deployment you need to describe it in s
   ```dockerimages/*:tag``` directly.
 - Advanced Configurations are Kubernetes, Swarm, OpenStack and other descriptive Cloud Deployments your on your own with this
 :)
+
+## Step 3 - Install and use direktspeed cockpit
+Direktspeed Cockpit is a cockpit-project based Interface Distribution and set of Plugins
+- https://github.com/direktspeed/cockpit
